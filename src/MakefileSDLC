@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = `idris --include` `sdl2-config --cflags`
+CFLAGS = `idris --include` `sdl2-config --cflags` -std=c99
 
 sdlrun2.o: config sdlrun2.c sdlrun2.h
 

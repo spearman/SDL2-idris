@@ -6,8 +6,8 @@ import Graphics.SDL2.Config
 
 %include C "sdlrun2.h"
 %include C "SDL.h"
-%include C "SDL2_gfxPrimitives.h"
-%include C "SDL_ttf.h"
+%include C "SDL2/SDL2_gfxPrimitives.h"
+%include C "SDL2/SDL_ttf.h"
 %link C "sdlrun2.o"
 %lib C "SDL2_gfx"
 %lib C "SDL2_ttf"

@@ -3,8 +3,8 @@
 
 #include <idris_rts.h>
 #include <SDL.h>
-#include <SDL2_gfxPrimitives.h>
-#include <SDL_ttf.h>
+#include <SDL2/SDL2_gfxPrimitives.h>
+#include <SDL2/SDL_ttf.h>
 
 int initSDL();
 

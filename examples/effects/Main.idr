@@ -33,7 +33,7 @@ emain : Prog () () ()
 emain = do putStrLn "Initialising"
            putStrLn "..."
            initialise "SDL2 Test" 640 480
-           openFont "/Library/Fonts/Zapfino.ttf" 70
+           openFont "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf" 70
            putStrLn "Initialised"
            eventLoop
            closeFont
